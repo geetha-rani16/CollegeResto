@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pics/Background2.png);
+}
+.container h2{
+    color: orange;
+    font-size: 50px;
+    font-weight: bold;
+}
+.fst p,
+.snd p{
+    color: white;
+    font-size: 20px;
+}
+.fst,
+.snd{
+    width: 50%;
+}
+

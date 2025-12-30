@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pics/Background2.png);
+}
+.container h2{
+    color: orange;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+}
+.name h4,
+.name_1 h4,
+.name_2 h4
+{
+    color: aquamarine;
+}
+.name ul li,
+.name_1 ul li,
+.name_2 ul li
+{
+    color: white;
+}
+div{
+    gap: 80px;
+}

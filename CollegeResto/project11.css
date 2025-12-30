@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pics/Background2.png);
+}
+.navbar{
+    height: 70px;
+    align-items: center;
+    padding: 0px 100px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+.links{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+
+}
+.logo{
+    color: orange;
+    font-size: 30px;
+    font-weight: 600;
+}
+.links li{
+    font-size: 19px;
+    color: orange;
+}
+.icons{
+    display: flex;
+    gap: 35px;
+}
+.icons i{
+    font-size: 25px;
+    color: black;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-top: 80px;
+    height: 350px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 240px;
+    align-items: start;
+}
+.l1{
+    font-size: 30px;
+    font-style: italic;
+    color: whitesmoke;
+}
+.l2{
+    font-size: 65px;
+    font-weight: 600;
+}
+.l3{
+    font-size: 27px;
+    font-style: italic;
+    color: orange;
+    margin-bottom: 15px;
+}
+.l4{
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 30px;
+    color: coral;
+}
+.l4 a{
+    text-decoration: none;
+    color: coral;
+}
+.food{
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+#food{
+    background: url(pics/pizza.png);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+.items{
+    display: flex;
+    padding-left: 150px;
+    margin-top: -50px;
+    gap: 20px;
+}
+#food1,#food2,#food3,#food4{
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+#food1{
+    background: url(pics/food1.png);
+    background-size: cover;
+}
+#food2{
+    background: url(pics/food2.png);
+    background-size: cover;
+}
+#food3{
+    background: url(pics/food3.png);
+    background-size: cover;
+}
+#food4{
+    background: url(pics/food4.png);
+    background-size: cover;
+}

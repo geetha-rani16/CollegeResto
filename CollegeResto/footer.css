@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pics/Background2.png);
+}
+.main h2{
+    color: orange;
+    font-size: 50px;
+    font-weight: bold;
+}
+form p{
+    text-align: start;
+    color: red;
+    padding: 0px 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.phn{
+    color: white;
+    font-weight: 150px;
+    margin: 10px;
+}
+.mail{
+    color: white;
+}
+.website{
+    color: white;
+    margin: 10px;
+
+}
+.matter{
+    color: white;
+    margin: 10px;
+}
